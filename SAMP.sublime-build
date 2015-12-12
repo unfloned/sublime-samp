@@ -1,5 +1,19 @@
 {
 	"cmd": ["${packages}/SAMP/compiler/pawncc.exe", "$file_name", "-;+", "-v2", "-d3", "-\\)+"],
 	"working_dir": "${file_path}",
+	"file_regex": "^([^\\.]+\\.pwn)\\((\\d+)\\)() : (.*)$",
+	"name": "Package output",
+	"variants": [
+		{
+			"cmd": ["${project_path:${folder}}/pawno/pawncc.exe", "$file_name", "-;+", "-v2", "-d3", "-\\)+"],
+			"working_dir": "${file_path}",
+			"name": "Projekt Folder output"
+		}
+	]
+}
+
+{
+	"cmd": ["${project_path:${folder}}/pawno/pawncc.exe", "$file_name", "-;+", "-v2", "-d3", "-\\)+"],
+	"working_dir": "${file_path}",
 	"file_regex": "^([^\\.]+\\.pwn)\\((\\d+)\\)() : (.*)$"
 }
