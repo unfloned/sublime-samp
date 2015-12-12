@@ -1,0 +1,5 @@
+{
+	"cmd": ["${packages}/SAMP/compiler/pawncc.exe", "$file_name", "-;+", "-v2", "-d3", "-\\)+"],
+	"working_dir": "${file_path}",
+	"file_regex": "^([^\\.]+\\.pwn)\\((\\d+)\\)() : (.*)$"
+}
