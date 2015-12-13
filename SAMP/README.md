@@ -1,6 +1,7 @@
 
-#SAMP Sublime Text Package
+#SAMP [Sublime Text](http://www.sublimetext.com) Package
 a sublime text package for [San Andreas Multiplayer](http://www.sa-mp.com) scripting.
+this package "search" automaticly for the **pawnocc.exe** compile in your Scripting folder.
 
 #installation
 
@@ -8,6 +9,10 @@ a sublime text package for [San Andreas Multiplayer](http://www.sa-mp.com) scrip
 2. click on "Preferences">"Browse Packages" in Sublime text menu.
 3. unzip the file in this folder.
 4. maybe restart is required.
+
+#usage
+
+press F5 to activate the build system via python script. 
 
 
 #screenshots

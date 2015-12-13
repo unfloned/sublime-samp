@@ -1,8 +1,0 @@
-{
-	"description": "SA-MP Pawn integration", 
-	"sublime_text": ">=3000", 
-	"version": "0.0.1", 
-	"url": "http://concil.me/samp-sublime/", 
-	"platforms": ["windows"], 
-	"dependencies": []
-}
