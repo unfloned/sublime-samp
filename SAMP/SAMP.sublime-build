@@ -1,19 +1,21 @@
 {
-	"cmd": ["${packages}/SAMP/compiler/pawncc.exe", "$file_name", "-;+", "-v2", "-d3", "-\\)+"],
-	"working_dir": "${file_path}",
-	"file_regex": "^([^\\.]+\\.pwn)\\((\\d+)\\)() : (.*)$",
-	"name": "Package output",
-	"variants": [
-		{
-			"cmd": ["${project_path:${folder}}/pawno/pawncc.exe", "$file_name", "-;+", "-v2", "-d3", "-\\)+"],
-			"working_dir": "${file_path}",
-			"name": "Projekt Folder output"
-		}
-	]
+	"cmd":"samp_build",
+	"variants":
+	{
+		"path":"${file_path}",
+		"name":"$file_name"
+	}
 }
 
-{
-	"cmd": ["${project_path:${folder}}/pawno/pawncc.exe", "$file_name", "-;+", "-v2", "-d3", "-\\)+"],
-	"working_dir": "${file_path}",
-	"file_regex": "^([^\\.]+\\.pwn)\\((\\d+)\\)() : (.*)$"
-}
+// {
+// 	"cmd": ["${file_path}..//pawno/pawncc.exe", "$file_name", "-;+", "-v2", "-d3", "-\\)+"],
+// 	"working_dir": "${file_path}",
+// 	"file_regex": "^([^\\.]+\\.pwn)\\((\\d+)\\)() : (.*)$",
+// 	"variants": [
+// 		{
+// 			"cmd": ["${packages}/SAMP/compiler/pawncc.exe", "$file_name", "-;+", "-v2", "-d3", "-\\)+"],
+// 			"working_dir": "${file_path}",
+// 			"name": "Projekt Folder output"
+// 		}
+// 	]
+// }
