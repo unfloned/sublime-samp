@@ -1,6 +1,6 @@
 
 <h1>SAMP <a href="http://www.sublimetext.com">Sublime Text</a> Package
-a sublime text package for <a href="http://www.sa-mp.com">San Andreas Multiplayer</a> scripting.</h1>
+for <a href="http://www.sa-mp.com">San Andreas Multiplayer</a> scripting.</h1>
 
 <h3>Feature</h3>
 this package "search" automaticly for the <strong>pawnocc.exe</strong> compile in your Scripting folder.
