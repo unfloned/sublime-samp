@@ -1,5 +1,5 @@
 
-<h1>SAMP <a href="http://www.sublimetext.com">Sublime Text</a> Package
+<h1><a href="http://www.sublimetext.com">Sublime Text</a> Package
 for <a href="http://www.sa-mp.com">San Andreas Multiplayer</a> scripting.</h1>
 
 <h3>Feature</h3>
