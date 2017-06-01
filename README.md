@@ -1,6 +1,6 @@
 
-#SAMP [Sublime Text](http://www.sublimetext.com) Package
-a sublime text package for [San Andreas Multiplayer](http://www.sa-mp.com) scripting.
+<h1>SAMP [Sublime Text](http://www.sublimetext.com) Package
+a sublime text package for [San Andreas Multiplayer](http://www.sa-mp.com) scripting.</h1>
 this package "search" automaticly for the **pawnocc.exe** compile in your Scripting folder.
 
 #installation
